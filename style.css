@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.game-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.game {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    transform: rotate(45deg);
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellowgreen;
+}
+
+.button-start {
+    width: 200px;
+    height: 30px;
+    background-color: purple;
+    margin-top: 40px;
+    color: white;
+}
+
+.your-turn {
+    align-self: center;
+    padding-left: 20px;
+}
+
+.blur {
+    opacity: 0.5;
+}
+
+.hide {
+    display: none;
+}
